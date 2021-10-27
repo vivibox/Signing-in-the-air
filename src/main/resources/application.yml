@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+
+    url: jdbc:postgresql://192.168.183.129:5432/pot
+    username: postgres
+    password: 1qa2ws3ed
+
+    continueOnError: true
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+

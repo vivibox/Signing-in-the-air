@@ -1,0 +1,24 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### Gradle ###
+.gradle
+build/
+lib/
+!gradle/wrapper/gradle-wrapper.jar
+
+### MacOS ###
+.DS_Store
+
+### python ###
+venv/
+src/main/resources/static/script/python/images/
+src/main/resources/static/script/python/images/signee_photo/
+src/main/resources/static/script/python/images/signee_signature_photo/
+src/main/resources/static/script/python/__pycache__/
+src/main/resources/static/script/python/*.py[cod]
+src/main/resources/static/script/python/*$py.class
